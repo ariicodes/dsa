@@ -1,0 +1,1 @@
+// Implement an algorithm to detect if a linked list has a loop.
