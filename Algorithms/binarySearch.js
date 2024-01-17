@@ -1,4 +1,4 @@
-function binaryIndexOf(compare, sortedElements) {
+function binarySearch(compare, sortedElements) {
 	if (Array.isArray(sortedElements)) {
 		let lowerIndex = 0;
 		let upperIndex = sortedElements.length - 1;
@@ -40,4 +40,4 @@ function forNumber(target) {
 	};
 }
 
-module.exports = { binaryIndexOf, forNumber };
+module.exports = { binarySearch, forNumber };
